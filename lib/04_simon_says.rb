@@ -10,7 +10,7 @@ end
 
 
 def repeat (text, n=2)
-	return (text+" ") * n
+	return ((text+" ")*n).strip
 end
 
 
@@ -19,8 +19,8 @@ def start_of_word(text, x)
 end
 
 
-def first_word
-
+def first_word(text)
+	
 end
 
 def titleize(title)
